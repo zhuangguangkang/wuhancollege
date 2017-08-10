@@ -1,0 +1,189 @@
+/* CSS Document */
+
+* {          /*全局声明*/
+font-size:12px;
+color:#333333;
+
+}
+
+#header{
+ height:100px;
+ width:1000px;
+}
+#main{
+height:1200px;
+width:1000px;
+text-decoration:none;
+}
+
+#main #sidebar{
+float:left;
+width:169px;
+height:1200px;
+background-color:#a0d5c6;
+
+}
+#main #sidebar #menu{
+width:169px;
+height:30px;
+}
+#main #sidebar #submenu{
+width:169px;
+height:430px;
+background-image:url(images/left_bg.gif)
+}
+
+ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	 
+}
+
+li {
+	float: left;	
+	width: 160px;	
+}
+
+
+
+
+#navs{
+list-style-type:none;
+text-align:center;
+text-decoration:none;
+}
+#navs li{
+
+margin:0px;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+border-top:2px solid:#00FF00;
+background-image:url(images/left_3.gif)
+}
+#navs a{
+ text-decoration:none;
+}
+
+#main #column{
+float:right;
+width:780px;
+height:800px;
+}
+#main #column #nav {    
+width:800px;
+height:70px;
+
+}
+#nav {    
+width:800px;
+height:16px;
+margin:0 auto;
+
+}
+ #column #nav  ul{
+list-style-type:none;
+
+}
+
+#nav a{
+   text-decoration:none;
+   display: block;  
+   height: 22px;
+   width: 80px;
+  // background:#ffffe0; 
+}
+
+#nav ul li {  
+float: left;   /*列表左浮动*/
+position:relative;
+width:90px;   
+}
+
+#nav ul li ul{
+      display:none;  /* 隐藏二级菜单*/
+      position:absolute;/*绝对定位*/        
+      top:22px;  /*相对父级li的平移量*/
+      left:-80px;
+      width:800px;
+	  text-align:leftr;
+	 
+}
+#nav ul li #left1{
+left:-170px;
+} 
+#nav ul li #right{
+left:-260px;
+} 
+#nav ul li #right1{
+left:-350px;
+}
+#nav ul li #right2{
+left:-440px;
+}
+#nav ul li #right3{
+left:-530px;
+}
+#nav ul li #right4{
+left:-620px;
+}
+
+#nav ul li ul li{
+
+ 
+     //float:none;    /*清楚继承的浮动效果*/
+}
+
+#nav ul li:hover ul, #nav li.over ul{/*当鼠标移动过去时，显示二级菜单*/
+display:block;
+}
+
+#main #column #ab{
+width:780px;
+height:40px;
+float:left;
+
+}
+#main #column #text{
+width:780px;
+height:1000px;
+float:left;
+ text-decoration:none;
+}
+#main #column #text LI A{
+text-decoration:none;
+
+}
+
+
+#footer{
+width:1000px;
+height:160px;
+float:inherit;
+
+}
+ #footer #footer_img{
+float:left;
+width:169px;
+height:160px;
+background-color:#a0d5c6;
+}
+ #footer #footer_content{
+float:right;
+width:750px;
+height:160px;
+background-image:url(images/footbg1.jpg)
+}
+ #footer #footer_content #friedlink{
+width:600px;
+height:50px;
+margin-top:60px;
+margin-left:130px;
+
+}
+ #footer #footer_content #copyrigth{
+width:780px;
+height:20px;
+float:inherit;
+}
